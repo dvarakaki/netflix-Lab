@@ -29,7 +29,7 @@
         app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.235"
+        app:layout_constraintVertical_bias="0.117"
         app:srcCompat="@drawable/logo_peaky" />
 
     <ImageView
@@ -38,10 +38,10 @@
         android:layout_height="63dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintHorizontal_bias="0.158"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.192"
+        app:layout_constraintVertical_bias="0.12"
         app:srcCompat="@drawable/logo" />
 
     <ImageView
@@ -87,9 +87,7 @@
         app:layout_constraintHorizontal_bias="0.918"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.906"
-
-        />
+        app:layout_constraintVertical_bias="0.906" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_assistir"
@@ -101,13 +99,11 @@
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:cornerRadius="4dp"
-
         app:icon="@android:drawable/ic_media_play"
         app:iconGravity="textStart"
         app:iconPadding="8dp"
-        app:iconTint="#FFFFFF"
         app:iconSize="29dp"
-
+        app:iconTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.499"
@@ -122,9 +118,11 @@
         android:text="Séries"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.335"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.221"
-        tools:layout_editor_absoluteX="249dp" />
+        app:layout_constraintVertical_bias="0.219" />
 
     <TextView
         android:id="@+id/filmesText"
@@ -133,9 +131,11 @@
         android:text="Filmes"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.676"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.219"
-        tools:layout_editor_absoluteX="436dp" />
+        app:layout_constraintVertical_bias="0.219" />
 
     <TextView
         android:id="@+id/listText"
@@ -144,9 +144,11 @@
         android:text="Minha Lista"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.219"
-        tools:layout_editor_absoluteX="563dp" />
+        app:layout_constraintVertical_bias="0.219" />
 
     <TextView
         android:id="@+id/vioText"
@@ -154,63 +156,76 @@
         android:layout_height="wrap_content"
         android:text="Violência"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="168dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382" />
 
     <TextView
         android:id="@+id/empolganteText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="13dp"
         android:text="Empolgante"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/btn_assistir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/series"
-        tools:layout_editor_absoluteX="336dp" />
+        app:layout_constraintVertical_bias="0.448" />
 
     <TextView
         android:id="@+id/sinistroText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="13dp"
         android:text="Sinistro"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/btn_assistir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/series"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="501dp" />
+        app:layout_constraintVertical_bias="0.448" />
 
     <TextView
         android:id="@+id/minhaLista"
         android:layout_width="102dp"
         android:layout_height="25dp"
+        android:gravity="center"
         android:text="MINHA LISTA"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="231dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595" />
 
     <TextView
         android:id="@+id/detalhes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="DETALHES"
-        android:textStyle="bold"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="516dp"
-        tools:layout_editor_absoluteY="227dp" />
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.584" />
 
     <TextView
         android:id="@+id/plus"
         android:layout_width="28dp"
         android:layout_height="28dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
         android:text="+"
         android:textColor="#FFFFFF"
         android:textSize="28sp"
-        android:gravity="center"
-        android:includeFontPadding="false"
         app:layout_constraintBottom_toTopOf="@+id/minhaLista"
         app:layout_constraintEnd_toEndOf="@+id/minhaLista"
         app:layout_constraintStart_toStartOf="@+id/minhaLista" />
@@ -220,10 +235,9 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:src="@android:drawable/ic_dialog_info"
-        app:tint="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/detalhes"
         app:layout_constraintEnd_toEndOf="@+id/detalhes"
-        app:layout_constraintStart_toStartOf="@+id/detalhes" />
-
+        app:layout_constraintStart_toStartOf="@+id/detalhes"
+        app:tint="#FFFFFF" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
